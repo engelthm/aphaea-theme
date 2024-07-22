@@ -721,7 +721,7 @@ a.more_notes_link { margin: 15px 0 0!important; }
         grid-template-columns: repeat(3, 1fr);
     }
     .head #head_title, .foot #foot_bio { display: none; }
-    .land #land_img { margin: -20% 0 0!important; }
+    .land_wrap { margin: -20% 0 0!important; }
     .land #land_bio, .error #error_bio {
         width: 75vw;
         margin: 50vh 12.5vw;
