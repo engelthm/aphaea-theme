@@ -835,7 +835,7 @@ a.more_notes_link { margin: 15px 0 0!important; }
         {block:NotReblog}{Body}{/block:NotReblog}
         {block:RebloggedFrom}
         {block:Reblogs}
-        <div class="comment_wrap">
+        <div class="comment_wrap source-head">
             <div class="commenter">
                 <!--<img src="{PortraitURL-64}" />-->
                 <span>
@@ -893,7 +893,7 @@ a.more_notes_link { margin: 15px 0 0!important; }
         <div class="link_desc">
             {block:RebloggedFrom}
             {block:Reblogs}
-            <div class="comment_wrap">
+            <div class="comment_wrap source-head">
                 <div class="commenter">
                     <!--<img src="{PortraitURL-64}" />-->
                     <span>
@@ -1022,7 +1022,7 @@ a.more_notes_link { margin: 15px 0 0!important; }
     {block:NotReblog}{Caption}{/block:NotReblog}
     {block:RebloggedFrom}
     {block:Reblogs}
-    <div class="comment_wrap">
+    <div class="comment_wrap source-head">
         <div class="commenter">
             <!--<img src="{PortraitURL-64}" />-->
             <span>
