@@ -538,7 +538,7 @@ svg {
     width: 25vw;
     margin: 0 0 15px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-content: center;
     align-items: center;
@@ -559,11 +559,10 @@ svg {
 }
 
 /* tags */
+/* tags */
 .tags_wrap { margin: 15px 0 0; }
-.info_tags a {
-    margin: 0 0 0 7.5px;
-    opacity: 0.5;
-}
+.info_tags a { opacity: 0.5; }
+.info_tags a:not(:first-child) { margin: 0 0 0 7.5px; }
 
 /* links */
 .info_wrap a, .pinned a, .perma a, .commenter a, .asker a, .answerer a, .link #link_heading a h1 {
